@@ -1,0 +1,42 @@
+body {
+  position: relative;
+  min-height: 100vh;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+p,
+span,
+a,
+ul,
+ol,
+li,
+button,
+input,
+textarea,
+label {
+  font-family: $body-font;
+  font-size: $body-font-size;
+  line-height: $base-line-height;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
+}
+
+li {
+  list-style-position: inside;
+}

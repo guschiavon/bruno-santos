@@ -1,0 +1,17 @@
+<div id="sticky-nav-bar" class="sticky-nav-bar grid-noGutter-spaceBetween">
+    <a href="/" class="col-12 flex-center">
+      <div class="nav-branding flex-center">
+        <img src="{{site.data.settings.branding.nav_logo_image}}" alt="{{site.data.settings.branding.site_title}}" class="nav-logo">
+        <span class="nav-title">
+          {{site.data.settings.branding.site_title}}
+        </span>
+      </div>
+    </a>
+    <div class="col-12 nav-container flex-end">
+      <nav class="nav-menu">
+        {% for menu in site.data.settings.navigation.menus %}
+        <a href="{{menu.url}}" class="nav-link">{{menu.name}}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </div>

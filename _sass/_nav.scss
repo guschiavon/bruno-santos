@@ -1,0 +1,115 @@
+.sticky-nav-bar {
+  position  : sticky;
+  padding   : 1rem unset;
+  .nav-branding {
+    position: relative;
+    .nav-logo {
+      width  : 50px;
+      height : auto;
+    }
+    .nav-title {
+      $left-padding: 0.5rem;
+      text-transform: uppercase;
+      color: $primary-color;
+      font-family: $heading-font;
+      font-weight: bold;
+      font-size: 4rem;
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        width: 35px;
+        height: 7px;
+        background: $primary-color;
+        left: 5px;
+      }
+    }
+  }
+  .nav-container {
+    .nav-link {
+      font-size: 1rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 0 0.3rem;
+      margin: 0 0.5rem;
+      color: $primary-color;
+      font-family: $heading-font;
+      @include transition;
+      
+      &:hover {
+        color: $shade-color;
+        @include transition;
+      }
+    }
+  }
+  .nav-social-link {
+    padding: 0 0.3rem;
+    margin-left: 0.3rem;
+    svg {
+      width: 15px;
+      fill: $primary-color;
+    }
+     &:hover {
+       svg {
+         fill: $shade-color;
+         @include transition;
+       }
+    }
+  }
+}
+
+// Dropdown menus
+
+.dropdown {
+  position    : relative;
+  display     : inline-block;
+  button {
+    background-color: unset;
+    border: none;
+  } 
+}
+.dropdown-content {
+  display     : none;
+  padding     : 0 0.7rem;
+  a {
+    padding   : 0.5rem;
+    // border-bottom: 1px solid;
+  }
+  li {
+    line-height: unset;
+    list-style: none;
+  }
+}
+.dropdown:hover,
+.dropdown:focus {
+  .dropdown-content {
+    display   : block;
+    position  : absolute;
+    z-index   : 10000;
+    width     : 100%;
+    right     : 0;
+    top       : 2rem;
+    background-color: $primary-color;
+    @include transition;
+    a {
+      font-size: 0.9rem;
+      padding: 0.3rem;
+      text-transform: uppercase;
+      color: $accent-color;
+    }
+  }
+}
+
+
+#pages-header {
+  .nav-title,
+  .nav-link {
+    color: $accent-color;
+  }
+  .nav-social-link svg {
+    fill: $accent-color;
+  }
+  .nav-title::before {
+    background-color: $accent-color;
+  }
+}

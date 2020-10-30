@@ -1,0 +1,27 @@
+.footer {
+  .nav-title {
+    position: relative;
+    text-transform: uppercase;
+    font-family: $heading-font;
+    font-size: 2rem;
+    color: $primary-color;
+    margin-right: 1rem;
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 3px;
+      content: "";
+      width: 17px;
+      height: 3px;
+      background-color: $primary-color;
+    }
+  }
+  .nav-social-link {
+    padding: 0 0.3rem;
+    margin-left: 0.3rem;
+    svg {
+      fill: $primary-color;
+      width: 25px;
+    }
+  }
+}

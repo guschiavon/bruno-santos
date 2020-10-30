@@ -1,0 +1,16 @@
+<footer id="footer" class="footer padding-x-lg padding-y-sm bg-accent">
+  <div class="grid-noGutter">
+    <div class="col-6_sm-12">
+      <a href="/"><span class="nav-title editable">Bruno Santos</span></a>
+      {% unless site.data.settings.general.instagram_url == nil %}
+        <a href="" class="nav-social-link">{% include social-icons.html icon="Instagram" %}</a>
+        {% endunless %}
+        {% unless site.data.settings.general.linkedin_url == nil %}
+        <a href="" class="nav-social-link">{% include social-icons.html icon="LinkedIn" %}</a>
+        {% endunless %}
+    </div>
+    <div class="col-6_sm-12 flex-end">
+      <p class="editable">All images © Bruno Santos Photography 2012-2020.</p>
+    </div>
+  </div>
+</footer>

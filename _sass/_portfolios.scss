@@ -1,0 +1,32 @@
+.pages-header {
+  height: auto;
+}
+.row-container {
+  height: 500px;
+  &:last-of-type {
+    margin-bottom:6rem;
+  }
+  @include background-center-cover;
+  a {
+    line-height: unset;
+  }
+  .impact-heading {
+    color: $primary-color;
+    &::before {
+      background-color: $primary-color;
+    }
+  }
+}
+.white-border {
+  border: 5px solid;
+  border-color: white;
+}
+.with-quote {
+  position: relative;
+  .quote {
+    position: absolute;
+    bottom: 25%;
+    left: 5rem;
+    font-size: 3rem;
+  }
+}
