@@ -24,4 +24,13 @@
       width: 25px;
     }
   }
+  .copywrite {
+    p:first-of-type {
+      margin-right: 0.2rem;
+    }
+    p:last-child,
+    p:last-child a, {
+      color: $shade-color;
+    }
+  }
 }

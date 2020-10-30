@@ -41,11 +41,16 @@
     .nav-social-link svg {
       width: 20px;
     }
-    .copywrite p {
-      font-size: 0.7rem;
+    .copywrite {
+      p,
+      a {
+        font-size: 0.7rem;
+
+      }
     }
     .copywrite.flex-end {
       justify-content: center;
+      flex-direction: column;
     }
     .footer-nav {
       text-align: center;
