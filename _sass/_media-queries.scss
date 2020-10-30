@@ -34,4 +34,21 @@
   .row-container:last-of-type {
     margin-bottom: 12rem;
   }
+  .footer {
+    .nav-title {
+      font-size: 1.5rem;
+    }
+    .nav-social-link svg {
+      width: 20px;
+    }
+    .copywrite p {
+      font-size: 0.7rem;
+    }
+    .copywrite.flex-end {
+      justify-content: center;
+    }
+    .footer-nav {
+      text-align: center;
+    }
+  }
 }
