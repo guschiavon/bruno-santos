@@ -3,10 +3,10 @@
     <div class="col-6_sm-12 footer-nav">
       <a href="/"><span class="nav-title editable">Bruno Santos</span></a>
       {% unless site.data.settings.general.instagram_url == nil %}
-        <a href="" class="nav-social-link">{% include social-icons.html icon="Instagram" %}</a>
+        <a href="{{site.data.settings.general.instagram_url}}" class="nav-social-link">{% include social-icons.html icon="Instagram" %}</a>
         {% endunless %}
         {% unless site.data.settings.general.linkedin_url == nil %}
-        <a href="" class="nav-social-link">{% include social-icons.html icon="LinkedIn" %}</a>
+        <a href="{{site.data.settings.general.linkedin_url}}" class="nav-social-link">{% include social-icons.html icon="LinkedIn" %}</a>
         {% endunless %}
     </div>
     <div class="col-6_sm-12 flex-end copywrite">
