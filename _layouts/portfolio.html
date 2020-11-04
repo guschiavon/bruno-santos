@@ -25,11 +25,20 @@ layout: default
       {% unless image.frame_image == nil %}<img src="{{image.frame_image}}" class="responsive-img" alt="">{% endunless %}
     </div>
     {% endfor %}
+    {% if page.quote != nil %}
     <div id="quote" class="quote padding-y-md">
       <blockquote>
-        <p class="gallery-quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim unde ex commodi quidem qui beatae, nobis magnam mollitia numquam quos.</p>
-        <cite class="quote-cite">H.C. Bresson</cite>
+        <p class="gallery-quote">{{page.quote}}</p>
+        <cite class="quote-cite">{{page.quote-owner}}</cite>
       </blockquote>
     </div>
+    {% endif %}
   </div>
 </section>
+<!-- <section class="portfolios padding-y-lg padding-x-lg flex-center">
+  {% for portfolio in site.portfolios %}
+    {% unless portfolio.title == page.title %}
+      <a href="{{portfolio.url}}"><h2>{{portfolio.title}}</h2></a>
+    {% endunless %}
+  {% endfor %}
+</section> -->

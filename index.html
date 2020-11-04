@@ -28,11 +28,11 @@ header_image: assets/images/bruno-santos-fotografo-humanitarian-IMG_0038.jpg
 </section>
 <section id="portfolios" class="portfolios padding-x-lg padding-y-sm">
   {% for portfolio in site.portfolios %}
-  <div class="row-container padding-x-lg flex-{% cycle 'start', 'end'%}" style="background-image: url({{portfolio.feature_image}});">
-    <a href="{{portfolio.url}}">
+    <a href="{{portfolio.url}}" class="row">
+      <div class="row-container padding-x-md flex-{% cycle 'start', 'end'%}" style="background-image: url({{portfolio.feature_image}});">
+      </div>
       <h2 class="impact-heading">{{portfolio.title}}</h2>
     </a>
-  </div>
   <br>
   {% endfor %}  
 </section>

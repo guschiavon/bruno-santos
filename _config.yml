@@ -15,6 +15,23 @@ collections:
 
 uploads_dir: /assets/images
 
+# Default layouts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "portfolios"
+    values:
+      layout: "portfolio"
+      _options:
+        title:
+        description_text:
+        feature_image:          
+        gallery:
+          - size:
+            frame_image:
+          
+
 # Enabled plugins. Uncomment them here and update the Gemfile, then run 'bundle install' on your terminal to enable them.
 plugins:
   - jekyll-feed
