@@ -54,9 +54,17 @@ background_classes:
   - bg-accent
   - bg-reset
 
+# Image sizes for gallery
+sizes:
+  - full-width
+  - half-width
+  - one-third
+  - two-thirds
+
 _comments:
   font_family_embed_code_block: Load the Google Fonts and Fontawesome scripts here
   body_font_size_number: "Please specify 'rem' or 'px'"
   body_font_family: For all paragraphs, links and buttons
   heading_font_family: For all headings, subtitles and section intros
+  gallery: Choose from the image sizes in order to build the gallery sections
 

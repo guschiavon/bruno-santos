@@ -30,3 +30,23 @@
     font-size: 3rem;
   }
 }
+
+.quote {
+  .gallery-quote {
+    font-size: 2.5rem;
+    color: $accent-color;
+    position: relative;
+    text-indent: 2rem;
+    &::before {
+      content: '\201C';
+      position: absolute;
+      left: -2.5rem;
+      top: -2rem;
+      font-size: 6rem;
+    }
+  }
+  .quote-cite {
+    font-size: 1.5rem;
+    color: dimgray;
+  }
+}
