@@ -57,3 +57,47 @@
     }
   }
 }
+@media (min-width: 660px) and (max-width: 1024px) {
+  .sticky-nav-bar .nav-branding .nav-title {
+    font-size: 2.5rem;
+  }
+  .impact-heading {
+    font-size: 3rem;
+  }
+  p,
+  span,
+  a,
+  ul,
+  ol,
+  li,
+  button,
+  input,
+  textarea,
+  label,
+  cite,
+  blockquote {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .sticky-nav-bar .nav-branding .nav-title {
+    font-size: 3rem;
+  }
+  .impact-heading {
+    font-size: 3rem;
+  }
+  p,
+  span,
+  a,
+  ul,
+  ol,
+  li,
+  button,
+  input,
+  textarea,
+  label,
+  cite,
+  blockquote {
+    font-size: 1rem;
+  }
+}
