@@ -83,5 +83,5 @@ _comments:
   body_font_size_number: "Please specify 'rem' or 'px'"
   body_font_family: For all paragraphs, links and buttons
   heading_font_family: For all headings, subtitles and section intros
-  gallery: Choose from the image sizes in order to build the gallery sections
+  gallery: Choose from the image sizes in order to build the gallery sections. Sizes are relative to the full width of the screen. All images will display full-screen on Mobile devices.
 
