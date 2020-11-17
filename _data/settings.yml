@@ -34,12 +34,12 @@ navigation:
       url: '#'
       is_dropdown: true
       submenus:
-        - name: Abstract
-          url: /abstract
-        - name: Humanitarian
-          url: /humanitarian
         - name: Portraits
           url: /portraits
+        - name: Humanitarian
+          url: /humanitarian
+        - name: Abstract
+          url: /abstract
 seo:
   site_description_text:
   keywords:
