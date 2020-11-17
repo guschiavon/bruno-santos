@@ -3,19 +3,12 @@ general:
   address:
   email:
   phone:
-  # facebook_url: 'https://facebook.com'
   instagram_url: 'https://instagram.com/brunosantosfotografia'
   instagram_handle: '@brunosantosfotografia'
-  # twitter_url: 'https://twitter.com'
-  # twitter_handle: '@yourhandle'
-  # youtube_url: 'https://youtube.com'
-  # github_url: 'https://github.com'
   linkedin_url: 'https://linkedin.com/bruno.santos'
-  # snapchat_url: 'https://snapchat.com'
-  # stackoverflow_url: 'https://stackoverflow.com'
 branding:
   site_title: Bruno Santos
-  nav_logo_image: /assets/images/logo.png
+  nav_logo_image: /assets/images/bruno_OK-01.png
   footer_logo_image: /assets/images/logo.png
   preview_image:
 theme_settings:
