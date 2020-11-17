@@ -10,7 +10,7 @@ branding:
   site_title: Bruno Santos
   nav_logo_image: /assets/images/bruno_OK-02 cópia.png
   footer_logo_image:
-  preview_image: /assets/images/IMG_6890.jpg
+  preview_image:
 theme_settings:
   primary_color: '#f2f2f2'
   secondary_color: '#000000'
