@@ -1,7 +1,10 @@
 <footer id="footer" class="footer padding-x-lg padding-y-sm bg-accent">
   <div class="grid-noGutter">
     <div class="col-6_sm-12 footer-nav">
-      <a href="/"><span class="nav-title editable">Bruno Santos</span></a>
+      <a href="/">
+        <img src="{{site.data.settings.branding.footer_logo_image}}" alt="{{site.data.settings.general.site_title}}">
+        <!-- <span class="nav-title editable">Bruno Santos</span> -->
+      </a>
       {% unless site.data.settings.general.instagram_url == nil %}
         <a href="{{site.data.settings.general.instagram_url}}" class="nav-social-link">{% include social-icons.html icon="Instagram" %}</a>
         {% endunless %}

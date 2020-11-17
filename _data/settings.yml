@@ -16,7 +16,7 @@ general:
 branding:
   site_title: Bruno Santos
   nav_logo_image: /assets/images/logo.png
-  footer_logo_image:
+  footer_logo_image: /assets/images/logo.png
   preview_image:
 theme_settings:
   primary_color: '#f2f2f2'
