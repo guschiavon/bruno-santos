@@ -81,7 +81,7 @@
   }
 }
 .dropdown:hover,
-.dropdown:focus {
+.dropdown:focus-within {
   .dropdown-content {
     display   : block;
     position  : absolute;

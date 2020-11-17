@@ -1,11 +1,11 @@
-<div id="sticky-nav-bar" class="sticky-nav-bar padding-x-lg grid-noGutter-spaceBetween">
+<div id="sticky-nav-bar" class="sticky-nav-bar padding-x-lg padding-y-sm grid-noGutter-spaceBetween">
     <div class="col-4_sm-10">
       <a href="/" class="nav-branding">
         <div class="flex-center">
-          <!-- <img src="{{site.data.settings.branding.nav_logo_image}}" alt="{{site.data.settings.branding.site_title}}" class="nav-logo"> -->
-          <span class="nav-title">
-            {{site.data.settings.branding.site_title}}
-          </span>
+          <img src="{{site.data.settings.branding.nav_logo_image}}" alt="{{site.data.settings.branding.site_title}}" class="nav-logo">
+          <!-- <span class="nav-title"> -->
+            <!-- {{site.data.settings.branding.site_title}} -->
+          <!-- </span> -->
         </div>
       </a>
     </div>
@@ -32,7 +32,7 @@
         {% unless site.data.settings.general.instagram_url == nil %}
         <a href="{{site.data.settings.general.instagram_url}}" class="nav-social-link">{% include social-icons.html icon="Instagram" %}</a>
         {% endunless %}
-        {% unless site.data.settings.general.facebook_url == nil %}
+        {% unless site.data.settings.general.linkedin_url == nil %}
         <a href="{{site.data.settings.general.linkedin_url}}" class="nav-social-link">{% include social-icons.html icon="LinkedIn" %}</a>
         {% endunless %}
       </nav>
