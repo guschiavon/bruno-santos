@@ -123,22 +123,7 @@
   font-size: 4rem;
   text-transform: uppercase;
   font-weight: lighter;
-  &::before {
-    // content: '';
-    // position: absolute;
-    // bottom: 10px;
-    // width: 3.5rem;
-    // height: 7px;
-    // background: $accent-color;
-    // left: 5px;
-    content: '';
-    position: absolute;
-    bottom: 2px;
-    width: 2.2rem;
-    height: 5px;
-    background: #132410;
-    left: 5px;
-  }
+  
 }
 
 .text-dark {

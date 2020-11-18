@@ -2,12 +2,7 @@
   .sticky-nav-bar .nav-branding .nav-title {
     font-size: 2rem;
     font-weight: initial;
-    &::before {
-      bottom: 10px;
-      width: 17px;
-      height: 3px;
-      left: 3px;
-    }
+    
   }
   .about-section {
     .img-container {
@@ -58,9 +53,7 @@
   }
 }
 @media (min-width: 660px) and (max-width: 1024px) {
-  .sticky-nav-bar .nav-branding .nav-title {
-    font-size: 2.5rem;
-  }
+  
   .impact-heading {
     font-size: 3rem;
   }
