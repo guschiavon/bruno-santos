@@ -30,10 +30,10 @@
         {% endif %}
         {% endfor %}
         {% unless site.data.settings.general.instagram_url == nil %}
-        <a href="{{site.data.settings.general.instagram_url}}" class="nav-social-link">{% include social-icons.html icon="Instagram" %}</a>
+        <a href="{{site.data.settings.general.instagram_url}}" class="nav-social-link" target="_blank">{% include social-icons.html icon="Instagram" %}</a>
         {% endunless %}
         {% unless site.data.settings.general.linkedin_url == nil %}
-        <a href="{{site.data.settings.general.linkedin_url}}" class="nav-social-link">{% include social-icons.html icon="LinkedIn" %}</a>
+        <a href="{{site.data.settings.general.linkedin_url}}" class="nav-social-link" target="_blank">{% include social-icons.html icon="LinkedIn" %}</a>
         {% endunless %}
       </nav>
     </div>
