@@ -41,7 +41,7 @@ navigation:
         - name: Abstract
           url: /abstract
     - name: Contact
-      url: /contact
+      url: '/#footer'
       is_dropdown: false
       submenus:
         - name:
