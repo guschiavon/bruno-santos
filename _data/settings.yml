@@ -5,7 +5,7 @@ general:
   phone:
   instagram_url: 'https://instagram.com/brunosantosfotografia'
   instagram_handle: '@brunosantosfotografia'
-  linkedin_url: 'https://linkedin.com/bruno.santos'
+  linkedin_url: 'https://linkedin.com/in/bruno.santos'
 branding:
   site_title: Bruno Santos
   nav_logo_image: /assets/images/bruno_OK-02 cópia.png
@@ -40,12 +40,6 @@ navigation:
           url: /humanitarian
         - name: Abstract
           url: /abstract
-    - name: Contact
-      url: '/#footer'
-      is_dropdown: false
-      submenus:
-        - name:
-          url:
 seo:
   site_description_text: Bruno Santos melhor fotógrafo do Brasil il il
   keywords: 'portrait, luz natural, retratos'
