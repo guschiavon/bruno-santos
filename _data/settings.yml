@@ -40,6 +40,12 @@ navigation:
           url: /humanitarian
         - name: Abstract
           url: /abstract
+    - name: Contact
+      url: /contact
+      is_dropdown: false
+      submenus:
+        - name:
+          url:
 seo:
   site_description_text: Bruno Santos melhor fotógrafo do Brasil il il
   keywords: 'portrait, luz natural, retratos'
