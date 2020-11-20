@@ -2,6 +2,7 @@
 layout: default
 title: Bruno Santos Fotografia
 header_image: /assets/images/IMG_6960.jpg
+about_image: assets/images/bruno-santos-fotografo.jpg
 ---
 
 <header class="home-header" style="background-image: url({{page.header_image}});">
@@ -11,7 +12,7 @@ header_image: /assets/images/IMG_6960.jpg
   <div class="col-6_sm-12-middle section-image">
     <div class="padding-y-md">
       <div class="img-container">
-        {% responsive_image path: assets/images/bruno-santos-fotografo.jpg alt: "A description of the image" %}
+       <img src="{{page.about_image}}" class="responsive-img">
       </div>
     </div>
   </div>

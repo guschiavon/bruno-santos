@@ -1,5 +1,5 @@
 general:
-  site_url:
+  site_url: 'https://brunosantosphotography.com'
   address:
   email:
   phone:
@@ -10,7 +10,7 @@ branding:
   site_title: Bruno Santos
   nav_logo_image: /assets/images/bruno_OK-02 cópia.png
   footer_logo_image:
-  preview_image:
+  preview_image: /assets/images/_MG_3240.jpg
 theme_settings:
   primary_color: '#f2f2f2'
   secondary_color: '#000000'

@@ -89,13 +89,14 @@
     width     : 100%;
     right     : 0;
     top       : 1.8rem;
-    background-color: $primary-color;
+    // background-color: $primary-color;
+    // opacity: 0.5;
     @include transition;
     a {
       font-size: 0.9rem;
       padding: 0.3rem;
       text-transform: uppercase;
-      color: $accent-color;
+      color: $primary-color;
     }
   }
 }
