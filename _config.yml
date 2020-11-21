@@ -90,6 +90,8 @@ _comments:
   site_description_text: Otimizar este conteúdo para ferramentas de busca. Este conteúdo também será utilizado como preview nos compartilhamentos em redes sociais.
   site_title: O título do site é o conteúdo da aba do browser
   preview_image: Imagem que é utilizada quando compartilhar o site em redes sociais.
+  header_image: Imagem para desktops & displays grandes
+  mobile_header_image: Imagem para dispositiveis móveis. Optar por retrato.
   feature_image: A imagem principal do portfolio. É utilizada na homepage e também quando compartilha nas redes sociais.
   description_text: Otimizar este conteúdo para ferramentas de busca
   

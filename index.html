@@ -3,9 +3,16 @@ layout: default
 title: Bruno Santos Fotografia
 logo_version: light
 header_image: /assets/images/IMG_4149.jpg
+mobile_header_image: /assets/images/bruno-santos-fotografo.jpg
 about_image: assets/images/bruno-santos-fotografo.jpg
 ---
-
+  <style>
+    @media (min-width: 300px) and (max-width: 660px) {
+    .home-header {
+      background-image: url({{page.mobile_header_image}}) !important;
+    }
+  }
+  </style>
 <header class="home-header" style="background-image: url({{page.header_image}});">
   {% include essentials/nav-option-1.html %}
 </header>
