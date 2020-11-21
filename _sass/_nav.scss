@@ -110,6 +110,9 @@
   .nav-social-link svg {
     fill: $accent-color;
   }
+  .dropdown:hover .dropdown-content a, .dropdown:focus-within .dropdown-content a {
+    color: $secondary-color;
+  }
   // .nav-title::before {
   //   background-color: $accent-color;
   // }
