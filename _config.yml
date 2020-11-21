@@ -77,6 +77,9 @@ sizes:
   - half-width
   - one-third
   - two-thirds
+logo_versions:
+  - light
+  - dark  
 
 _comments:
   font_family_embed_code_block: Load the Google Fonts and Fontawesome scripts here
@@ -84,4 +87,5 @@ _comments:
   body_font_family: For all paragraphs, links and buttons
   heading_font_family: For all headings, subtitles and section intros
   gallery: Choose from the image sizes in order to build the gallery sections. Sizes are relative to the full width of the screen. All images will display full-screen on Mobile devices.
+  
 

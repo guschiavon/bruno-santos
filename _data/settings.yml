@@ -8,7 +8,8 @@ general:
   linkedin_url: 'https://www.linkedin.com/in/bruno-santos-fotógrafo-7244a371/'
 branding:
   site_title: Bruno Santos
-  nav_logo_image: /assets/images/bruno_OK-02 cópia.png
+  nav_logo_light_image: /assets/images/bruno-santos-logo-light.png
+  nav_logo_dark_image: /assets/images/bruno-santos-logo-dark.png
   footer_logo_image:
   preview_image: /assets/images/IMG_7818.jpg
 theme_settings:
