@@ -2,7 +2,9 @@
   <div class="grid-noGutter">
     <div class="col-6_sm-12 footer-nav">
       <a href="/">
+        {% if site.data.settings.branding.footer_logo_image != nil %}
         <img src="{{site.data.settings.branding.footer_logo_image}}" alt="{{site.data.settings.general.site_title}}" />
+        {% endif %}
         <!-- <span class="nav-title editable">Bruno Santos</span> -->
       </a>
       {% unless site.data.settings.general.instagram_url == nil %}
@@ -16,7 +18,7 @@
       <p class="editable">
  	All images &copy; Bruno Santos Photography 2012-2020.
  </p>
-      <p> Site created by <a href="https://linkedin.com/in/gus-schiavon">Tuo.Dev</a></p>
+      <p> Site created by <a href="https://linkedin.com/in/gus-schiavon" target="_blank">Gus Schiavon</a></p>
     </div>
   </div>
 </footer>

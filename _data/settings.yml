@@ -32,7 +32,7 @@ navigation:
         - name:
           url:
     - name: Portfolio
-      url: /portfolio
+      url: 
       is_dropdown: true
       submenus:
         - name: Portraits
