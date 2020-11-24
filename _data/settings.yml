@@ -32,7 +32,7 @@ navigation:
         - name:
           url:
     - name: Portfolio
-      url: 
+      url:
       is_dropdown: true
       submenus:
         - name: Portraits
@@ -48,5 +48,5 @@ navigation:
         - name:
           url:
 seo:
-  site_description_text: Retratos com essência
+  site_description_text: Retratos com verdade.
   keywords: 'portrait, luz natural, retratos'
