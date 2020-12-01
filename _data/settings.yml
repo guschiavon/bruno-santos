@@ -35,8 +35,8 @@ navigation:
       url:
       is_dropdown: true
       submenus:
-        - name: Beauty
-          url: /beauty
+        - name: Portraits
+          url: /portraits
         - name: Humanitarian
           url: /humanitarian
         - name: Nature
