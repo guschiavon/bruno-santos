@@ -39,8 +39,8 @@ navigation:
           url: /portraits
         - name: Humanitarian
           url: /humanitarian
-        - name: Abstract
-          url: /abstract
+        - name: Nature
+          url: /nature
     - name: Contact
       url: /contact
       is_dropdown: false
