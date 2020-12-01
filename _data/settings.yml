@@ -41,6 +41,8 @@ navigation:
           url: /humanitarian
         - name: Nature
           url: /nature
+        - name: fineart
+          url: /fineart
     - name: Contact
       url: /contact
       is_dropdown: false
