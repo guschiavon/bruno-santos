@@ -27,16 +27,18 @@ navigation:
   menus:
     - name: About
       url: /about
-      is_dropdown: false
+      is_dropdown: true
       submenus:
-        - name:
-          url:
+        - name: Published
+          url: /published
     - name: Portfolio
       url:
       is_dropdown: true
       submenus:
+        - name: Beauty
+          url: /beauty
         - name: Portraits
-          url: /portraits
+          url: /portrait
         - name: Humanitarian
           url: /humanitarian
         - name: Abstract
@@ -44,7 +46,7 @@ navigation:
         - name: fineart
           url: /fine-art
     - name: Contact
-      url: /contact
+      url: 'mailto:brunosantosfotografia@gmail.com'
       is_dropdown: false
       submenus:
         - name:
