@@ -23,7 +23,7 @@ layout: default
   <div class="grid-noGutter-spaceBetween">
     {% for image in page.gallery %}
     <div class="{% if image.size == 'full-width' %}col-12{% endif %}{% if image.size == 'one-third' %}col-4_sm-12{% endif %}{% if image.size == 'two-thirds' %}col-8_sm-12{% endif %}{% if image.size == 'half-width' %}col-6_sm-12{% endif %} white-border">
-      {% unless image.frame_image == nil %}<img src="{{image.frame_image}}" class="responsive-img" alt="">{% endunless %}
+      {% unless image.frame_image == nil %}<img src="{{image.frame_image}}" class="responsive-img" alt="Bruno Santos Fotografia - Humanitarian, Portraits, Fine Art, Corporate">{% endunless %}
     </div>
     {% endfor %}
     {% if page.quote != nil %}
