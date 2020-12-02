@@ -30,7 +30,7 @@ navigation:
       is_dropdown: true
       submenus:
         - name: Published
-          url:
+          url: /published
     - name: Portfolio
       url:
       is_dropdown: true
