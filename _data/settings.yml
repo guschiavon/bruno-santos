@@ -27,9 +27,9 @@ navigation:
   menus:
     - name: About
       url: /about
-      is_dropdown: false
+      is_dropdown: true
       submenus:
-        - name:
+        - name: Published
           url:
     - name: Portfolio
       url:
