@@ -35,15 +35,15 @@ navigation:
       url:
       is_dropdown: true
       submenus:
-        - name: Portraits
-          url: /portraits
+        - name: Beauty
+          url: /beauty
         - name: Humanitarian
           url: /humanitarian
         - name: Abstract
           url: /abstract
         - name: fineart
           url: /fine-art
-        - name: Portrait
+        - name: Portraits
           url: /portrait
     - name: Contact
       url: /contact
