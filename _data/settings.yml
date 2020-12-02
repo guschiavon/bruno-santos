@@ -42,7 +42,7 @@ navigation:
         - name: Abstract
           url: /abstract
         - name: fineart
-          url: /fineart
+          url: /fine-art
     - name: Contact
       url: /contact
       is_dropdown: false
