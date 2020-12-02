@@ -19,7 +19,7 @@ uploads_dir: /assets/images
 defaults:
   -
     scope:
-      path: ""
+      path: "/portfolios"
       type: "portfolios"
     values:
       layout: "portfolio"
