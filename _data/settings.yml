@@ -43,6 +43,8 @@ navigation:
           url: /abstract
         - name: fineart
           url: /fine-art
+        - name: Portrait
+          url: /portrait
     - name: Contact
       url: /contact
       is_dropdown: false
