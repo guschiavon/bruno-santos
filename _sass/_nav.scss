@@ -134,9 +134,11 @@
     }
   }
 }
-#pages-header {
+#pages-header,
+.home-header {
   .nav-menu.mobile-nav {
     position: fixed;
+    overflow-y: hidden;
     top: 0;
     left: 0;
     width: 100%;
