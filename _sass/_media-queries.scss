@@ -17,9 +17,6 @@
   .row {
     height: 350px;
   }
-  .mobile-hide {
-    display: none;
-  }
   .impact-heading {
     font-size: 2rem;
     &::before {
@@ -53,6 +50,14 @@
     .footer-nav {
       text-align: center;
     }
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav-menu {
+    display: none;
+  }
+  .burger {
+    display: inline-flex;
   }
 }
 @media (min-width: 660px) and (max-width: 1024px) {
