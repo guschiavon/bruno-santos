@@ -19,8 +19,8 @@ theme_settings:
   shade_color: '#465842'
   complementary_color: '#2f2f2f'
   font_family_embed_code_block:
-  body_font_family: DINPro-light
-  heading_font_family: DINPro-regular
+  body_font_family: "DINPro-light, DINPRO, sans-serif"
+  heading_font_family: "DINPro-regular, DINPRO, sans-serif"
   body_font_size_number: 1.1rem
   line_height_number: 1.8
 navigation:
