@@ -13,7 +13,9 @@ layout: default
     </div>
     <div class="col-6_sm-12-bottom white-border">
       <div class="image-container">
+        {% unless page.feature_image == nil %}
         <img src="{{page.feature_image}}" class="responsive-img" alt="">
+        {% endunless %}
       </div>
     </div>
   </section>
