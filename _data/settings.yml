@@ -37,10 +37,10 @@ navigation:
       submenus:
         - name: Beauty
           url: /beauty
-        - name: Portraits
-          url: /portrait
         - name: Humanitarian
           url: /humanitarian
+        - name: Portraits
+          url: /portrait
         - name: Abstract
           url: /abstract
         - name: fineart
@@ -55,4 +55,4 @@ seo:
   site_description_text: |-
     True portraits.
     Lights and shadows.
-  keywords: 'portrait, luz natural, retratos'
+  keywords: 'portrait, natural light, retratos, luz e sombra'
