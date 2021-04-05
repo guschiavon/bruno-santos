@@ -46,7 +46,7 @@ navigation:
         - name: fineart
           url: /fine-art
     - name: Contact
-      url: 'mailto:brunosantosfotografia@gmail.com'
+      url: 'mailto:info@brunosantosphoto.com'
       is_dropdown: false
       submenus:
         - name:
