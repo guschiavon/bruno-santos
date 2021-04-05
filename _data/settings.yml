@@ -1,11 +1,11 @@
 general:
-  site_url: /
+  site_url: /brunosantosphoto.com
   address:
-  email: brunosantosfotografia@gmail.com
+  email: info@brunosantosphoto.com
   phone:
   instagram_url: 'https://instagram.com/brunosantosfotografia'
   instagram_handle: '@brunosantosfotografia'
-  linkedin_url: 'https://www.linkedin.com/in/bruno-santos-fotógrafo-7244a371/'
+  linkedin_url: 'https://www.linkedin.com/in/bruno-santos-fot%C3%B3grafo-7244a371/'
 branding:
   site_title: Bruno Santos
   nav_logo_light_image: /assets/images/bruno-santos-logo-light.png
