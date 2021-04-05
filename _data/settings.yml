@@ -1,7 +1,7 @@
 general:
-  site_url: /brunosantosphoto.com
+  site_url: 'https://brunosantosphoto.com'
   address:
-  email: info@brunosantosphoto.com
+  email: 'info@brunosantosphoto.com'
   phone:
   instagram_url: 'https://instagram.com/brunosantosfotografia'
   instagram_handle: '@brunosantosfotografia'
