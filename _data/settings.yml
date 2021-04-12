@@ -41,10 +41,10 @@ navigation:
           url: /humanitarian
         - name: Portraits
           url: /portrait
-        - name: Abstract
-          url: /abstract
         - name: fineart
           url: /fine-art
+        - name: Nature
+          url: /nature
     - name: Contact
       url: 'mailto:info@brunosantosphoto.com?subject=Contato'
       is_dropdown: false
