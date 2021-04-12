@@ -41,7 +41,7 @@ navigation:
           url: /humanitarian
         - name: Portraits
           url: /portrait
-        - name: fineart
+        - name: Fineart
           url: /fine-art
         - name: Nature
           url: /nature
